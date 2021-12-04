@@ -10,8 +10,8 @@ object CharactersData {
         "Kyojuro Rengoku",
         "Giyu Tomioka",
         "Nezuko Kamado",
-        "Tanjiro Kamado",
-        "Tanjiro Kamado"
+        "Shinobu Kocho",
+        "Sakonji Urokodaki"
     )
 
     private val infoCharacters = arrayOf(
@@ -48,14 +48,21 @@ object CharactersData {
                 "She is a demon and the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family." +
                 " Formerly a human, she was attacked and turned into a demon by Muzan Kibutsuji.",
 
-        ""
+        "Shinobu Kocho (胡こ蝶ちょう しのぶ Kochō Shinobu?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba." +
+                " She is a Demon Slayer of the Demon Slayer Corps and the current Insect Hashira (蟲むし柱ばしら Mushi Bashira?)." +
+                "Shinobu Kocho is also the younger sister of Kanae Kocho along with her adoptive younger sister Kanao Tsuyuri. " +
+                "After a demon killed her parents, Shinobu joined the Demon Slayer Corps along with her sister in order to protect others from suffering the same fate as her.",
+
+        "Sakonji Urokodaki (鱗うろこ滝だき 左さ近こん次じ Urokodaki Sakonji?) is a retired member of the Demon Slayer Corps, having held the position of the previous Water Hashira (水みず柱ばしら Mizu Bashira?). " +
+                "He is the main cultivator of the Water Breathing, having trained Giyu Tomioka, Tanjiro Kamado, Sabito and Makomo"
 
     )
 
     private val charactersSwordsmanship = arrayOf(
         "First Form: Water Surface Slash (壱いちノ型かた　水みな面も斬ぎり Ichi no kata: Minamo Giri)" +
                 "Second Form: Water Wheel (弐にノ型かた　水みず車ぐるま Ni no kata: Mizu Guruma)" +
-                "Third Form: Flowing Dance (参さんノ型かた　流りゅう流りゅう舞まい San no kata: Ryūryū Mai)",
+                "Third Form: Flowing Dance (参さんノ型かた　流りゅう流りゅう舞まい San no kata: Ryūryū Mai) " +
+                "ETC",
 
         "He dont have Swordsmanship",
 
@@ -68,20 +75,31 @@ object CharactersData {
 
         "First Fang: Pierce (壱いちノ牙きば　穿うがち抜ぬき Ichi no kiba: Ugachi Nuki?)" +
                 "Second Fang: Slice (弐にノ牙きば　切きり裂さき Ni no kiba: Kirisaki?)" +
-                "Third Fang: Devour (参さんノ牙きば　喰くい裂ざき San no kiba: Kuizaki?)",
+                "Third Fang: Devour (参さんノ牙きば　喰くい裂ざき San no kiba: Kuizaki?) " +
+                "ETC",
 
-        "First Form: Unknowing Fire (壱いちノ型かた　不知火しらぬい Ichi no kata: Shiranui?)"+
-                "Second Form: Rising Scorching Sun (弐にノ型かた　昇のぼり炎えん天てん Ni no kata: Nobori En Ten?)"+
-                "Third Form: Blazing Universe (参さんノ型かた　氣き炎えん万ばん象しょう San no kata: Kien Banshō?)",
+        "First Form: Unknowing Fire (壱いちノ型かた　不知火しらぬい Ichi no kata: Shiranui?)" +
+                "Second Form: Rising Scorching Sun (弐にノ型かた　昇のぼり炎えん天てん Ni no kata: Nobori En Ten?)" +
+                "Third Form: Blazing Universe (参さんノ型かた　氣き炎えん万ばん象しょう San no kata: Kien Banshō?) " +
+                "ETC",
 
-        "First Form: Water Surface Slash (壱いちノ型かた　水みな面も斬ぎり Ichi no kata: Minamo Giri?)"+
-                "Second Form: Water Wheel (弐にノ型かた　水みず車ぐるま Ni no kata: Mizu Guruma?)"+
-                "Third Form: Flowing Dance (参さんノ型かた　流りゅう流りゅう舞まい San no kata: Ryūryū Mai?)",
+        "First Form: Water Surface Slash (壱いちノ型かた　水みな面も斬ぎり Ichi no kata: Minamo Giri?)" +
+                "Second Form: Water Wheel (弐にノ型かた　水みず車ぐるま Ni no kata: Mizu Guruma?)" +
+                "Third Form: Flowing Dance (参さんノ型かた　流りゅう流りゅう舞まい San no kata: Ryūryū Mai?)" +
+                "ETC",
 
-        "Awakened Form"+
+        "Awakened Form" +
                 "Sunlight Resistance",
 
-        ""
+        "Butterfly Dance: Caprice (蝶ちょうノ舞まい　戯たわむれ Chō no mai: Tawamure?)" +
+                "Dance of the Bee Sting: True Flutter (蜂ほう牙がノ舞まい　真ま靡なびき Hōga no mai: Manabiki?)" +
+                "Dance of the Dragonfly: Compound Eye Hexagon (蜻せい蛉れいノ舞まい　複ふく眼がん六ろっ角かく Seirei no mai: Fukugan Rokkaku?) " +
+                "ETC",
+
+        "First Form: Water Surface Slash (壱いちノ型かた　水みな面も斬ぎり Ichi no kata: Minamo Giri?)" +
+                "Second Form: Water Wheel (弐にノ型かた　水みず車ぐるま Ni no kata: Mizu Guruma?)" +
+                "Third Form: Flowing Dance (参さんノ型かた　流りゅう流りゅう舞まい San no kata: Ryūryū Mai?)" +
+                "ETC"
     )
 
     private val charactersPhoto = arrayOf(
@@ -92,8 +110,23 @@ object CharactersData {
         R.drawable.inozuke,
         R.drawable.kyojuro,
         R.drawable.giyu,
-        R.drawable.tanjirou,
-        R.drawable.tanjirou,
-        R.drawable.tanjirou
+        R.drawable.nezuko,
+        R.drawable.shinobu,
+        R.drawable.sakonji
     )
+
+    val charactersData: ArrayList<Characters>
+        get() {
+            val listData = arrayListOf<Characters>()
+            for (i in characterName.indices) {
+                val characters = Characters()
+                characters.name = characterName[i]
+                characters.info = infoCharacters[i]
+                characters.Swordsmanship = charactersSwordsmanship[i]
+                characters.photo = charactersPhoto[i]
+
+                listData.add(characters)
+            }
+            return listData
+        }
 }

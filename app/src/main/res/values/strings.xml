@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Submission BMAAP</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="name">Tanjiro</string>
+    <string name="about_me">About Me</string>
+    <string name="kimetsu_no_yaiba_wiki">Kimetsu no Yaiba Wiki</string>
 </resources>

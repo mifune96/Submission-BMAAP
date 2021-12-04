@@ -1,4 +1,8 @@
 package com.tomuchcoffee.submissionbmaap
 
-class Characters {
-}
+data class Characters(
+    var name: String ="",
+    var info: String ="",
+    var Swordsmanship: String ="",
+    var photo: Int = 0
+)

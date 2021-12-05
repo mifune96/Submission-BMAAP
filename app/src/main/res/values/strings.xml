@@ -4,4 +4,12 @@
     <string name="name">Tanjiro</string>
     <string name="about_me">About Me</string>
     <string name="kimetsu_no_yaiba_wiki">Kimetsu no Yaiba Wiki</string>
+    <string name="character_info">Character Info</string>
+    <string name="character_name">Character Name :</string>
+    <string name="character_info_detail">Character Info :</string>
+    <string name="charackters_detail">Charackters Detail</string>
+    <string name="swordman_ship_detail">Swordman Ship Detail</string>
+    <string name="swordsman_ship">Swordsman Ship :</string>
+    <string name="ali_imran">Ali Imran</string>
+    <string name="imrank_sensea_gmail_com">imrank.sensea@gmail.com</string>
 </resources>

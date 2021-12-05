@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SubmissionBMAAP">
         <activity
+            android:name=".AboutActivity"
+            android:exported="true" />
+        <activity
             android:name=".DetailActivity"
             android:exported="true" />
         <activity
@@ -23,7 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

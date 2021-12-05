@@ -6,7 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_margin="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="4dp">
 
@@ -16,7 +19,7 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/iv_characktes"
+            android:id="@+id/iv_charackters"
             android:layout_width="150dp"
             android:layout_height="220dp"
             android:layout_marginBottom="8dp"
@@ -27,7 +30,7 @@
             android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/iv_characktes"
+            android:layout_toEndOf="@id/iv_charackters"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
@@ -35,13 +38,13 @@
             android:text="@string/name"/>
 
         <TextView
-            android:id="@+id/tv_item_detail"
+            android:id="@+id/tv_characterinfo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/tv_name"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_toEndOf="@id/iv_characktes"
+            android:layout_toEndOf="@id/iv_charackters"
             android:ellipsize="end"
             android:maxLines="5"
             android:text="@string/deskripsi"/>
